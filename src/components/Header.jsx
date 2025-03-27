@@ -41,7 +41,7 @@ function Header() {
             ))}
              <li>
               <a
-                href="https://drive.google.com/drive/folders/1bD-MkRnOhmkjh7iUF9PMYjqTnZedbvAY" // Replace with actual link
+                href="https://drive.google.com/file/d/196Hln8DlNfhcKFYTfky91xBHuos90MNX/view?usp=drive_link" // Replace with actual link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all"
