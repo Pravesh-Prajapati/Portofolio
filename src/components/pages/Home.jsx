@@ -32,7 +32,7 @@ const Home = () => {
             </p>
             <p className='mt-10 text-green-500 font-bold '>Available For Freelancing / job</p>
 
-            <a href="https://drive.google.com/file/d/1qq7h1dLbV9-WDnjOhWbBJ6zpGd5Qf7RG/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1xIgSrXq-xSo_7tK2F-T6s5Qc6ankps14/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg mt-6 hover:bg-blue-700 transition-transform transform hover:scale-110 flex items-center group shadow-lg">
                 <span className="font-semibold">Download CV</span>
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={24} />
