@@ -1,16 +1,17 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaGlobe, FaCode, FaServer, FaDatabase, FaCss3Alt, FaHtml5, FaGitAlt, FaTerminal } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaGlobe, FaServer, FaDatabase, FaCss3Alt, FaHtml5, FaGitAlt, FaJs, FaReact, FaBootstrap, FaNodeJs, FaGit, FaTerminal } from 'react-icons/fa';
 import img1 from '../img/profile1.png';
 
 function About() {
+  
   const skillsData = [
     { name: 'HTML5', icon: <FaHtml5 size={48} />, bg: 'bg-orange-200' },
     { name: 'CSS3', icon: <FaCss3Alt size={48} />, bg: 'bg-blue-200' },
-    { name: 'Tailwind CSS', icon: <FaCode size={48} />, bg: 'bg-teal-200' },
-    { name: 'Bootstrap', icon: <FaCode size={48} />, bg: 'bg-purple-200' },
-    { name: 'JavaScript', icon: <FaCode size={48} />, bg: 'bg-yellow-200' },
-    { name: 'ReactJS', icon: <FaCode size={48} />, bg: 'bg-blue-200' },
-    { name: 'Node.js', icon: <FaServer size={48} />, bg: 'bg-green-200' },
+    { name: 'Tailwind CSS', icon: <FaCss3Alt size={48} />, bg: 'bg-teal-200' },
+    { name: 'Bootstrap', icon: <FaBootstrap size={48} />, bg: 'bg-purple-200' },
+    { name: 'JavaScript', icon: <FaJs size={48} />, bg: 'bg-yellow-200' },
+    { name: 'ReactJS', icon: <FaReact size={48} />, bg: 'bg-blue-200' },
+    { name: 'Node.js', icon: <FaNodeJs size={48} />, bg: 'bg-green-200' },
     { name: 'ExpressJS', icon: <FaTerminal size={48} />, bg: 'bg-gray-200' },
     { name: 'MongoDB', icon: <FaDatabase size={48} />, bg: 'bg-green-200' },
     { name: 'Git', icon: <FaGitAlt size={48} />, bg: 'bg-red-200' },

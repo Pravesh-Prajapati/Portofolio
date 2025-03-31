@@ -5,7 +5,7 @@ function Contact() {
     <section id="contact" className="bg-gradient-to-b from-gray-900 to-black py-20 min-h-screen flex items-center justify-center">
       <div className="max-w-6xl w-full mx-auto px-6">
         <h2 className="text-5xl font-bold text-white text-center mb-16">Let's Connect</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Contact Info Section */}
           <div className="text-white space-y-8">
@@ -26,7 +26,7 @@ function Contact() {
           {/* Contact Form Section */}
           <div className="bg-gray-800 p-8 rounded-xl shadow-xl">
             <h3 className="text-3xl font-semibold text-white mb-8">Send Me a Message</h3>
-            <form action="mailto:praveshprajapati708154@gmail.com" method="post">
+            <form action="mailto:ashokaakshee@gmail.com?subject=Contact Form Submission" method="post" enctype="text/plain">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-gray-300 font-medium mb-2">Name</label>
