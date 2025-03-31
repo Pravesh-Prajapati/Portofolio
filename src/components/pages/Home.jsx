@@ -23,10 +23,9 @@ const Home = () => {
               Passionate about creating innovative and efficient web applications.
               My expertise lies in building responsive, scalable solutions using modern technologies.
             </p>
-            <p className='mt-10 text-green-500 font-bold text-base md:text-lg lg:text-xl'>Available For Freelancing / Job</p>
-
-            <a href="https://drive.google.com/file/d/1a3lUlBFZDlilea1FTHhUZUO6SpH7i0Dm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-              <button className="bg-blue-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg mt-6 hover:bg-blue-700 transition-transform transform hover:scale-110 flex items-center group shadow-lg">
+            <p className='mt-10 text-green-500 font-bold text-base md:text-lg lg:text-xl'>Available For Freelancing / Job </p>
+            <a href="https://drive.google.com/file/d/1a3lUlBFZDlilea1FTHhUZUO6SpH7i0Dm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg mt-6 hover:bg-blue-700 transition-transform transform hover:scale-110 flex items-center group shadow-lg">
                 <span className="font-semibold">Download CV</span>
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={24} />
               </button>
